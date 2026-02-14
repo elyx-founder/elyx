@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "594740621888",
+    "project_id": "elyx-3b804",
+    "storage_bucket": "elyx-3b804.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594740621888:android:014ebd68d1277c5f1ce5a5",
+        "android_client_info": {
+          "package_name": "com.elyx.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC845xn5YpDi0tQiosQrlrVgKuD7u6WPLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

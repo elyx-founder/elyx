@@ -1,0 +1,45 @@
+name: elyx_app
+description: ELYX - AI Mentor Gamification App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.2
+  local_auth: ^2.1.7
+
+  # ✅ STABLE Firebase combo
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.5
+  google_sign_in: ^6.2.1
+
+  model_viewer_plus: ^1.7.0
+
+
+
+  http: ^1.6.0
+  just_audio: ^0.9.36
+
+  lottie: ^2.7.0
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/levels/
+    - assets/audio/
+    - assets/models/
